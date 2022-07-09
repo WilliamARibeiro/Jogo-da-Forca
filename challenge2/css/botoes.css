@@ -1,0 +1,140 @@
+.botao__play {
+  width: 20rem;
+  height: 5rem;
+  margin-top: 1rem;
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:1rem 2rem;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.botao__play:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+.botao__addPalavra {
+  width: 20rem;
+  height: 5rem;
+  margin-top: 1rem;
+  box-shadow:inset 0px 0px 15px 3px #6781a6;
+  background:linear-gradient(to bottom, #dae1eb 5%, #c5d2eb 100%);
+  background-color:#dae1eb;
+  border-radius:17px;
+  border:1px solid #263d61;
+  cursor:pointer;
+  color:#152b82;
+  font-family:Arial;
+  font-size:15px;
+  padding:1rem 2rem;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #263666;
+  }
+.botao__addPalavra:hover {
+  background:linear-gradient(to bottom, #c5d2eb 5%, #dae1eb 100%);
+  background-color:#c5d2eb;
+}
+.botao__novoJogo {
+  width: 20rem;
+  height: 5rem;
+	box-shadow:inset 0px 0px 15px 3px #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:17px;
+	border:1px solid #1f2f47;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:1rem 2rem;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+}
+.botao__novoJogo:hover {
+	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+.botao__desistir {
+  margin-left: 5rem;
+  width: 20rem;
+  height: 5rem;
+  box-shadow:inset 0px 0px 15px 3px #6781a6;
+  background:linear-gradient(to bottom, #dae1eb 5%, #c5d2eb 100%);
+  background-color:#dae1eb;
+  border-radius:17px;
+  border:1px solid #263d61;
+  cursor:pointer;
+  color:#152b82;
+  font-family:Arial;
+  font-size:15px;
+  padding:1rem 2rem;;
+  text-align: center;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #263666;
+  }
+.botao__desistir:hover {
+  background:linear-gradient(to bottom, #c5d2eb 5%, #dae1eb 100%);
+  background-color:#c5d2eb;
+}
+
+.button-modal {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.botao__novoJogo__modal{
+  width: 10rem;
+  height: 5rem;
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow:inset 0px 0px 15px 3px #23395e;
+  background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+  background-color:#2e466e;
+  border-radius:17px;
+  border:1px solid #1f2f47;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  text-align: center;
+  padding:2rem 2rem;;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #263666;
+}
+.botao__novoJogo__modal:hover {
+  background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+  background-color:#415989;
+}
+.botao__cancelar__modal {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  float: left;
+  width: 10rem;
+  height: 5rem;
+  box-shadow:inset 0px 0px 15px 3px #6781a6;
+  background:linear-gradient(to bottom, #dae1eb 5%, #c5d2eb 100%);
+  background-color:#dae1eb;
+  border-radius:17px;
+  border:1px solid #263d61;
+  cursor:pointer;
+  color:#152b82;
+  font-family:Arial;
+  font-size:15px;
+ padding:2rem 2rem;;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #263666;
+  }
+.botao__cancelar__modal:hover {
+  background:linear-gradient(to bottom, #c5d2eb 5%, #dae1eb 100%);
+  background-color:#c5d2eb;
+}

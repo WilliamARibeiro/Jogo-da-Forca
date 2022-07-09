@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Forca - ONE</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/botoes.css">
+  <link rel="stylesheet" href="css/forca.css">
+
+  <link rel="icon" href="imagem/favicon.ico" type="image/x-icon">
+</head>
+  <body>
+    <header>
+      <img id="icon" src="imagem/icon.png" allow="geolocation" alt="logo">
+    </header>
+
+    <main class="startpage">
+      <h1 class="challenge2">Oracle Next Education - ONE
+       <br>Challenge 2 - Jogo da Forca</h1>
+      <button class="botao__play" onclick="screenGame()">Começar a jogar</button>
+      <button class="botao__addPalavra" onclick="addword()">Adicionar nova palavra</button>
+    </main>
+    <div class="games">
+      <div class="img__forca">
+        <img src="imagem/base.png" alt="" class="base"/>
+        <img src="imagem/astemaior.png" alt="" class="astemaior"/>
+        <img src="imagem/astemenor.png" alt="" class="astemenor"/>
+        <img src="imagem/corda.png" alt=""class="corda"/>
+        <img src="imagem/cabeca.png" alt="" class="cabeca"/>
+        <img src="imagem/tronco.png" alt=""class="tronco"/>
+        <img src="imagem/bracodireito.png" alt="" class="bracodireito"/>
+        <img src="imagem/bracoesquerdo.png" alt="" class="bracoesquerdo"/>
+        <img src="imagem/pernadireita.png" alt="" class="pernadireita"/>
+        <img src="imagem/pernaesquerda.png" alt="" class="pernaesquerda"/>
+      </div>
+      <textarea id="inputCHAR"  type="text"43 onchange="" readonly placeholder="Qual é a Palavra Secreta?">
+      </textarea>
+      <div class="word" id="word">
+        <div class="word-content" id="addword">
+          <p id="letter"></p>
+        </div>
+        <div class="word-contentOFF" id="addword">
+          <p id="letterOFF"></p>
+        </div>
+      </div>
+        <button class="botao__novoJogo" onclick="window.location.reload()">Novo Jogo</button>
+        <button class="botao__desistir" onclick="window.location.reload()">Desistir</button>
+        <div class="dica">
+          <textarea id="dicain" name="" style="resize:none" readonly>Dica</textarea>
+      </div>
+    </div>
+    
+    <p class="copyrightGame"></p>
+
+    <footer class="footer">
+      <a href="https://www.linkedin.com/in/william-ribeiro-dev-web/" target="_blank"><img src="imagem/linkedin.png" alt=""></a>
+      <a href="https://github.com/william-ribeiro-dev-web" target="_blank"><img src="imagem/git.png" alt=""></a>
+      <p class="copyright">&copy; by William Alves Ribeiro 2022</p>
+    </footer>
+
+    <div id="modal-id" class="modal-container">
+      <div class="modal">
+        <h2 class="title-modal-win">Parabéns, Você acertou!</h1>
+        <h2 class="title-modal-lose">Que pena, Você errou!</h1>
+          <p class="subtitle-modal">Deseja jogar novamente?</p>
+          <div class="button-modal">
+            <button class="botao__novoJogo__modal" onclick="window.location.reload()">Jogar</button>
+          <button class="botao__cancelar__modal" onclick="window.location.reload()">Desistir</button>
+          </div>
+      </div>
+    </div>
+
+    <script src="JavaScript/script.js"></script>
+  </body>
+</html>

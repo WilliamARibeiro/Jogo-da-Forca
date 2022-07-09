@@ -1,0 +1,75 @@
+.games {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  margin: auto;
+  width: 940px;
+  height: 440px;
+  padding-bottom: 10px;
+}
+.base{
+  display: flex;
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 180px;
+} 
+.astemaior{
+  display: flex;
+  position: absolute;
+  margin-top: -555px;
+  margin-left: 250px;
+}
+.astemenor {
+  display: flex;
+  position: absolute;
+  margin-top: -555px;
+  margin-left: 250px;
+}
+.corda{
+  display: flex;
+  position: absolute;
+  margin-top: -555px;
+  margin-left: 424px;
+}
+
+.cabeca{
+  display: flex;
+  position: absolute;
+  margin-top: -506px;
+  margin-left: 395px;
+}
+
+.tronco{
+  display: flex;
+  position: absolute;
+  margin-top: -445px;
+  margin-left: 424px;
+}   
+
+.bracodireito{
+  display: flex;
+  position: absolute;
+  margin-top: -445px;
+  margin-left: 428px;
+}
+
+.bracoesquerdo{
+  display: flex;
+  position: absolute;
+  margin-top: -445px;
+  margin-left: 388px;
+}
+.pernadireita{
+  display: flex;
+  position: absolute;
+  margin-top: -313px;
+  margin-left: 426px;
+}
+
+.pernaesquerda{
+  display: flex;
+  position: absolute;
+  margin-top: -313px ;
+  margin-left: 389px;
+}
